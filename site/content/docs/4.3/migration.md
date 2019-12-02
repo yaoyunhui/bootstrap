@@ -65,7 +65,7 @@ Changes to any layout tools and our grid system.
 
 Changes to Reboot, typography, tables, and more.
 
-- **Todo:** Make RFS enabled by default
+- [RFS]({{< docsref "/getting-started/rfs" >}}) enabled for automated font size rescaling. [See #29152](https://github.com/twbs/bootstrap/pull/29152)
 - Reset default horizontal `padding-left` on `<ul>` and `<ol>` elements from browser default `40px` to `2rem`.
 - `.list-inline` is removed in favor of using the grid (`.row`) in combination with `.col-auto` list items. See [inline lists documentation]({{< docsref "/content/typography#inline-lists" >}}).
 - Simplified table styles (no more 2px border on `thead > th` elements) and tightened cell padding.
